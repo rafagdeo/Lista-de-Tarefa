@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    padding: 50px;
+    background-color: #171717;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white; 
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+    font-size: 45px;
+}
+input{ 
+    font-family: "DM Sans", sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+}
+button {
+    font-family: "DM Sans", sans-serif;
+    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #171717;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.lista { 
+    text-align: left !important;
+    margin: 0;
+    padding: 0;
+}
+.apagar {
+    font-family: "DM Sans", sans-serif;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: #000;
+    color: #fff;
+    margin-left: 20px;
+}
+.apagar:hover{
+    background-color: #ffffff;
+    border: 1px solid #000;
+    color: #000;
+}
+ul{
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    justify-content: space-around;
+}
+li{
+    margin: 10px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 80%; /* Ajuste a largura para telas menores */
+        max-width: none; /* Remove o limite máximo de largura */
+        padding: 15px; /* Ajusta o padding para telas menores */
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .relogio { 
+        font-size: 70px;
+    }
+    button {
+        padding: 10px 30px 10px 30px;
+    }
+}
